@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --fontGeneral:sans-serif;
+}
+
+body{
+    background-color: rgb(14, 10, 37);
+}
+
+.target{
+    background-color: white;
+    margin: 90px auto;
+    height: 400px;
+    width: 300px;
+}
+.elipses{
+    /* background-color: peru; */
+    height: 25px;
+    width: 300px;
+}
+.elipses>div{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.elipse-azul{
+    background-color: blue;
+    margin-left: 98px;
+}
+.elipse-verde{
+    background-color: green;
+}
+.elipse-rojo{
+    background-color: red;
+}
+.producto{
+    /* background-color: aqua; */
+    width: 300px;
+    height: 190px;
+}
+.description{
+    margin-top: 30px;
+}
+.description h2{
+    font-size: 1rem;
+    text-align: center;
+    font-family: var(--fontGeneral);
+}
+.description h1{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--fontGeneral);
+}
+.buy h1{
+    margin-left: 40px;
+    display: inline-block;
+    font-family: var(--fontGeneral);
+}
+.buy button{
+    display: inline-block;
+    background: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+.buy{
+    height: 40px;
+    /* background-color: yellow; */
+    margin-top: 20px;
+}
+
+.producto img{
+    width: 100%;
+    height: auto;
+}
