@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background: linear-gradient(to right, #430000, #ff0000);
+    height: 592px;
+    width: 300px;
+    border: 1px black solid;
+}
+.home,.categorias,.perfil,.contactos,.opciones{
+    background: linear-gradient(to right, #000000, #00000052);
+    height: 50px;
+    width: 290px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 5px;
+    /* border:1px black solid; */
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 15px 0 0 15px;
+    color: rgba(255, 255, 255, 0.696);
+}
