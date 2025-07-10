@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --backroun_color:rgb(7, 7, 23);
+    --font_color:white;
+}
+.header div{
+    display: inline-block;
+}
+.logo{
+    position: absolute;
+    background-color: var(--font_color);
+    border-radius: 50px;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    left: 0;
+}
+.nav button{
+    width: 200px;
+    height: 20px;
+    margin: 0 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px var(--font_color) solid;
+    color: var(--font_color);
+    background: none;
+}
+.header{
+    position: relative;
+    padding-left: 100px;
+    background-color: var(--backroun_color);
+    height: 50px;
+}
