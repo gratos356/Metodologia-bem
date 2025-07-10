@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.calificacion{
+    border: 1px black solid;
+    background-color: aliceblue;
+    height: 100px;
+    width: 300px;
+    margin: 100px auto;
+}
+.calificacion .opinion h1{
+        font-size: 1rem;
+    }
+.calificacion .opinion{
+    border: 1px black solid;
+    height: 50px;
+    width: 297px;
+    margin: 0 1px;
+}
