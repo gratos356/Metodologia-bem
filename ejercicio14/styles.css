@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(221, 221, 221);
+    margin: 10px auto;
+    border: 1px black solid;
+}
+
+.publicacion{
+    /* background-color: yellow; */
+    margin: 40px auto 0 auto;
+    height: 90px;
+    width: 500px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: rgb(224, 240, 255);
+}
+.publicacion h2{
+    line-height: 90px;
+    text-align: center;
+    font-size: 1rem;
+}
+.comentarios h2{
+    font-size: 1rem;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 400px;
+    margin:15px auto;
+}
+.comentarios{
+    border: 1px black solid;
+    overflow-y: scroll;
+    background-color: rgb(224, 240, 255);
+    width: 500px;
+    margin: 40px auto 0 auto;
+    height: 200px;
+}
