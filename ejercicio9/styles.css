@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.categorias{
+    background-color: aliceblue;
+    border: 1px black solid;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.categorias div{
+    border: 1px black solid;
+    height: 130px;
+    width: 297px;
+    margin: 2px 1px;
+    transition: 0.4s;
+}
+.categorias div:hover{
+    transform: scale3d(1.03,1.03,1.03);
+    background-color: rgb(0, 0, 255);
+    filter: drop-shadow(2px 2px 2px rgb(0, 10, 87));
+    color: white;
+}
+.categorias div h1{
+    text-align: center;
+    line-height: 130px;
+}
