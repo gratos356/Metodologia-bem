@@ -1,0 +1,35 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+:root{
+    --general_font:sans-serif;
+}
+.video-referencia iframe{
+    border-radius: 20px;
+    border: 2px black solid;
+}
+.video-referencia{
+    margin-left: 18px;
+}
+.reproductor{
+    background-color: rgb(24, 24, 24);
+    border: 1px black solid;
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+/* .descripcion{
+    text-align: center;
+} */
+.titulo{
+    font-family: var(--general_font);
+    margin-left: 20px;
+    color: white;
+}
+.descripcion h2{
+    font-family: var(--general_font);
+    font-size: 1rem;
+    color: white;
+}
